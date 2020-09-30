@@ -1,5 +1,5 @@
 {
-  "name": "BwaDoctor",
+  "name": "bwa-doctor",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,8 +11,24 @@
     "emulator-android": "C:/Users/Isshiki/AppData/Local/Android/Sdk/emulator/emulator -avd Nexus_5_API_30"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.9.0",
+    "@react-navigation/native": "^5.7.4",
+    "@react-navigation/stack": "^5.9.1",
+    "firebase": "^7.21.1",
+    "jetifier": "^1.6.6",
+    "link": "^0.1.5",
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "^0.63.2",
+    "react-native-flash-message": "^0.1.16",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-image-picker": "^2.3.4",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-transformer": "^0.14.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
